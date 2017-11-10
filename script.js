@@ -10,7 +10,7 @@ inputsColor.forEach(input => input.addEventListener('input', function(e){
         case 'green': green = e.target.value;
             break;
         case 'blue': blue = e.target.value;
-            break;
+            break; 
                          }
     colorExample.style.backgroundColor = `rgb(${red},${green},${blue})`;
 }));
